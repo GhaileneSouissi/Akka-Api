@@ -13,8 +13,7 @@ object AppSettings {
 
     val hostname = appConfiguration.getString("elasticSearch.hostname")
     val port = appConfiguration.getInt("elasticSearch.port")
-    val index = appConfiguration.getString("elasticSearch.index")
-    val docType = appConfiguration.getString("elasticSearch.doc-type")
+
   }
 
 

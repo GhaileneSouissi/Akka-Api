@@ -18,6 +18,9 @@ libraryDependencies ++= Seq(
   "com.datastax.spark" % "spark-cassandra-connector_2.11" % "2.0.0-M3",
   "com.lightbend.akka" %% "akka-stream-alpakka-elasticsearch" % "1.0.2",
   "org.mongodb.scala" %% "mongo-scala-driver" % "2.1.0",
-  "net.liftweb" % "lift-json_2.11" % "2.6.2"
+  "net.liftweb" % "lift-json_2.11" % "2.6.2",
+  "jp.co.bizreach" %% "elastic-scala-httpclient" % "3.2.4"
+
+
 
 )
